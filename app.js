@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 const dotenv = require('dotenv')
 const bodyParser = require('body-parser')
-
+var port = process.env.PORT || 3000
 dotenv.config();
 
 
@@ -33,4 +33,4 @@ app.get('/',(req,res) =>{
 
 
 
-app.listen(3000)
+app.listen(port)
