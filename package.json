@@ -1,5 +1,5 @@
 {
-  "name": "store-app-be",
+  "name": "schedule-app-server",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,8 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@admin-bro/express": "^3.0.1",
-    "@admin-bro/mongoose": "^1.0.2",
     "@hapi/joi": "^17.1.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
